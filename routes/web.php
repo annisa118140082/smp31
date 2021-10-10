@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Admin\BeritaController;
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -15,9 +18,42 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('master/index');
+    return view('beranda');
+});
+Route::get('/fasilitas', function () {
+    return view('profilsekolah.fasilitas');
+});
+Route::get('/logo', function () {
+    return view('profilsekolah.logo');
+});
+Route::get('/mars', function () {
+    return view('profilsekolah.mars');
+});
+Route::get('/sambutan', function () {
+    return view('profilsekolah.sambutan');
+});
+Route::get('/sejarah', function () {
+    return view('profilsekolah.sejarah');
+});
+Route::get('/struktur', function () {
+    return view('profilsekolah.struktur');
+});
+Route::get('/tatib', function () {
+    return view('profilsekolah.tatib');
+});
+Route::get('/visimisi', function () {
+    return view('profilsekolah.visimisi');
+});
+Route::get('/admin',  function () {
+    return view('');
 });
 
-Auth::routes(['except' => 'register']);
+Route::get('admin/login',       [LoginController::class, 'showLoginForm']);
+Route::post('admin/login',      [LoginController::class, 'login'])->name('login');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::group(['middleware' => 'auth', 'prefix' => 'admin', 'as' => 'admin.'], function () {
+    Route::post('logout',       [LoginController::class, 'logout'])->name('logout');
+
+    Route::get('dashboard',         [DashboardController::class, 'index'])->name('dashboard');
+    Route::resource('berita',       BeritaController::class);
+});
