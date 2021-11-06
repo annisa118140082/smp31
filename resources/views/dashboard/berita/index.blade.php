@@ -14,7 +14,7 @@
             <h6 class="m-0 font-weight-bold text-primary">Daftar Berita</h6>
         </div>
         <div class="col-3 my-2">
-            <a class="btn btn-primary" href="#">Tambah Berita</a>
+            <a class="btn btn-primary" href="{{ route('admin.berita.create') }}">Tambah Berita</a>
         </div>
         @if (session('status'))
             <div class="alert alert-success mt-3 mx-2">

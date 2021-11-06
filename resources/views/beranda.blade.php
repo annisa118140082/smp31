@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-                    <div class="           wrap d-flex justify-content-center flex-column">
+                            <div class="             wrap d-flex justify-content-center flex-column">
     <div class=" landing-text d-flex flex-column justify-content-center align-items-center">
         <div class="big-text mb-3">
             SMP NEGERI 31 BANDAR LAMPUNG
@@ -217,10 +217,13 @@
                                 Kontak
                             </div>
                             <div>
-                                Email :
-                                Alamat :
-                                Telepon :
-                                Fax :
+                                <ul>
+                                    <li>Email : <a href="mailto:smpn31balam@gmail.com">smpn31balam@gmail.com</a> / <a
+                                            href="mailto:smpn31bdl@yahoo.co.id">smpn31bdl@yahoo.co.id</a></li>
+                                    <li>Alamat : Jl. Drs. Alimudin Umar No. 108, Campang Raya, Sukabumi, Bandar Lampung</li>
+                                    <li>Telepon : </li>
+                                    <li>Fax :</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

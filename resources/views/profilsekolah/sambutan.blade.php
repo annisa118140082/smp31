@@ -1,9 +1,13 @@
 @extends('master.index')
 
 @section('css')
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="{{ asset('css/profilsekolah/isi-profil.css') }}">
 @endsection
 
 @section('content')
-    <h1>Sambutan</h1>
+    <div class="container-fluid bg-white">
+        <div class="isi">
+            <h1 class="mb-4 font-weight-bold">Sambutan</h1>
+        </div>
+    </div>
 @endsection
