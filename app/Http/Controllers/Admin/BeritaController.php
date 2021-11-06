@@ -14,4 +14,9 @@ class BeritaController extends Controller
 
         return view('dashboard.berita.index', compact('beritas'));
     }
+
+    public function create()
+    {
+        return view('dashboard.berita.create');
+    }
 }
