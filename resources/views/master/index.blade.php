@@ -11,7 +11,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link href="{{ asset('css/master/master.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/master/master.css') }}" rel="stylesheet">
     @yield('css')
     <title>SMPN 31 BDL</title>
 </head>
@@ -29,7 +29,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script src="{{ asset('js/master.js') }}"></script>
+    <script src="{{ secure_asset('js/master.js') }}"></script>
 
     @include('master.navbar')
 

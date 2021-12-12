@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-transparant navbar-light position-sticky sticky-top navbar-fixed-top">
-    <img src="{{ asset('img/remove-bg-logo.png') }}" class="logo-sekolah-navbar mr-2" alt="logo SMPN 31 BDL">
+    <img src="{{ secure_asset('img/remove-bg-logo.png') }}" class="logo-sekolah-navbar mr-2" alt="logo SMPN 31 BDL">
     {{-- <a class="navbar-brand d-flex" style="flex: 2" href="/">SMPN 31 Bandar Lampung</a> --}}
 
     <div class="collapse navbar-collapse">

@@ -1,11 +1,11 @@
 @extends('master.index')
 
 @section('css')
-    <link href="{{ asset('css/master/master.css') }}" rel="stylesheet"">
+    <link href="{{ secure_asset('css/master/master.css') }}" rel="stylesheet"">
 @endsection
 
 @section('content')
-    <div class=" wrap d-flex justify-content-center flex-column">
+        <div class="  wrap d-flex justify-content-center flex-column">
     <div class=" landing-text d-flex flex-column justify-content-center align-items-center">
         <div class="big-text mb-3" style="background-color: white">
             SMP NEGERI 31 BANDAR LAMPUNG
@@ -160,7 +160,8 @@
                 {{-- <div class="bar"></div> --}}
                 <div class="card-deck">
                     <div class="card">
-                        <img class="card-img-top" src="{{ asset('img/dataSDM-kepsek.jpeg') }}" alt="Card image cap">
+                        <img class="card-img-top" src="{{ secure_asset('img/dataSDM-kepsek.jpeg') }}"
+                            alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drs. Mahmud Muin</h5>
                             <h6 class="card-title-nip">NIP 19621107 198803 1 006</h6>
@@ -168,7 +169,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="{{ asset('img/dataSDM-wakasek-humas.jpg') }}"
+                        <img class="card-img-top" src="{{ secure_asset('img/dataSDM-wakasek-humas.jpg') }}"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Made Suyasmini, S.Pd</h5>
@@ -178,7 +179,7 @@
 
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="{{ asset('img/dataSDM-wakasek-sapras.jpg') }}"
+                        <img class="card-img-top" src="{{ secure_asset('img/dataSDM-wakasek-sapras.jpg') }}"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Susmiyatin, S.Ag., M.Pd.I</h5>
@@ -187,7 +188,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="{{ asset('img/dataSDM-wakasek-kurikulum.jpg') }}"
+                        <img class="card-img-top" src="{{ secure_asset('img/dataSDM-wakasek-kurikulum.jpg') }}"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Rini Pangastuti, S.Pd, MM</h5>

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="{{ asset('img/itera.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ secure_asset('img/itera.png') }}" type="image/x-icon">
 
     <title>@yield('title-page')</title>
 
@@ -18,11 +18,12 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link href="{{ asset('dashboard/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ secure_asset('dashboard/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet"
+        type="text/css">
     <!-- Custom styles for this template-->
-    <link href="{{ asset('dashboard/css/sb-admin-2.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/all.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('dashboard/css/sb-admin-2.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/all.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/admin.css') }}" rel="stylesheet">
     @yield('css')
 </head>
 
@@ -38,7 +39,7 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center"
                 href="{{ route('admin.dashboard') }}">
                 <div class="sidebar-brand-icon">
-                    {{-- <img src="{{ asset('img/itera.png') }}" style="height: 2.5rem; width: 2rem;" alt=""> --}}
+                    {{-- <img src="{{ secure_asset('img/itera.png') }}" style="height: 2.5rem; width: 2rem;" alt=""> --}}
                 </div>
                 <div class="sidebar-brand-text mx-3">Laboratorium</div>
             </a>
@@ -231,21 +232,21 @@
         </div>
 
         <!-- Bootstrap core JavaScript-->
-        <script src="{{ asset('dashboard/vendor/jquery/jquery.min.js') }}"></script>
-        <script src="{{ asset('dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ secure_asset('dashboard/vendor/jquery/jquery.min.js') }}"></script>
+        <script src="{{ secure_asset('dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
         <!-- Core plugin JavaScript-->
-        <script src="{{ asset('dashboard/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+        <script src="{{ secure_asset('dashboard/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
 
         <!-- Custom scripts for all pages-->
-        <script src="{{ asset('dashboard/js/sb-admin-2.min.js') }}"></script>
+        <script src="{{ secure_asset('dashboard/js/sb-admin-2.min.js') }}"></script>
 
         <!-- Page level plugins -->
-        <script src="{{ asset('dashboard/vendor/chart.js/Chart.min.js') }}"></script>
+        <script src="{{ secure_asset('dashboard/vendor/chart.js/Chart.min.js') }}"></script>
 
         <!-- Page level custom scripts -->
-        <script src="{{ asset('dashboard/js/demo/chart-area-demo.js') }}"></script>
-        <script src="{{ asset('dashboard/js/demo/chart-pie-demo.js') }}"></script>
+        <script src="{{ secure_asset('dashboard/js/demo/chart-area-demo.js') }}"></script>
+        <script src="{{ secure_asset('dashboard/js/demo/chart-pie-demo.js') }}"></script>
 
         {{-- Penambahan Script --}}
         @yield('js')

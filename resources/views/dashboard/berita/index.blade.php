@@ -3,9 +3,9 @@
 @section('title-page', 'Daftar Berita')
 
 @section('css')
-    <link rel="stylesheet" href="{{ asset('css/table/dataTables.bootstrap4.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/table/responsive.bootstrap4.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/table/buttons.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/table/dataTables.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/table/responsive.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/table/buttons.bootstrap4.min.css') }}">
 @endsection
 
 @section('content')
@@ -54,18 +54,18 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('js/table/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('js/table/dataTables.bootstrap4.min.js') }}"></script>
-    <script src="{{ asset('js/table/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset('js/table/responsive.bootstrap4.min.js') }}"></script>
-    <script src="{{ asset('js/table/dataTables.buttons.min.js') }}"></script>
-    <script src="{{ asset('js/table/buttons.bootstrap4.min.js') }}"></script>
-    <script src="{{ asset('js/table/jszip.min.js') }}"></script>
-    <script src="{{ asset('js/table/pdfmake.min.js') }}"></script>
-    <script src="{{ asset('js/table/vfs_fonts.js') }}"></script>
-    <script src="{{ asset('js/table/buttons.html5.min.js') }}"></script>
-    <script src="{{ asset('js/table/buttons.print.min.js') }}"></script>
-    <script src="{{ asset('js/table/buttons.colVis.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/dataTables.responsive.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/responsive.bootstrap4.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/dataTables.buttons.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/buttons.bootstrap4.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/jszip.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/pdfmake.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/vfs_fonts.js') }}"></script>
+    <script src="{{ secure_asset('js/table/buttons.html5.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/buttons.print.min.js') }}"></script>
+    <script src="{{ secure_asset('js/table/buttons.colVis.min.js') }}"></script>
     <script>
         $(function() {
             $("#example1").DataTable({

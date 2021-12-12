@@ -1,7 +1,7 @@
 @extends('master.index')
 
 @section('css')
-    <link rel="stylesheet" href="{{ asset('css/profilsekolah/isi-profil.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/profilsekolah/isi-profil.css') }}">
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@
         <div class="isi">
             <h1 class="mb-4 font-weight-bold">Logo SMPN 31 Bandar Lampung</h1>
             <div class="d-flex flex-row">
-                <img src="{{ asset('img/logosekolah.jpg') }}" class="img-fluid logo-sekolah" alt="logo SMPN 31 BDL">
+                <img src="{{ secure_asset('img/logosekolah.jpg') }}" class="img-fluid logo-sekolah" alt="logo SMPN 31 BDL">
                 <p>SMP Negeri 31 Bandar Lampung akhirnya resmi memiliki logo sekolah, ini setelah disahkan dalam rapat warga
                     SMP
                     Negeri 31 Bandar Lampung pada
