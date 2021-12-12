@@ -44,6 +44,9 @@ Route::get('/tatib', function () {
 Route::get('/visimisi', function () {
     return view('profilsekolah.visimisi');
 });
+Route::get('/profil', function () {
+    return view('profilsekolah.profil');
+});
 Route::get('/admin',  function () {
     return view('');
 });

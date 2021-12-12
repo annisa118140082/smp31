@@ -36,12 +36,29 @@
     @yield('content')
     <footer class="footer d-flex flex-row">
         <div class="title-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt mollitia eum eveniet similique laborum.
-            Dolores enim eligendi omnis a aliquam minus amet, quasi alias voluptates odio quaerat iste quia debitis.
+            <ul>
+                <h5>Social Media Kami</h5>
+                <li><a href="https://www.facebook.com/Smpn31BandarLampung/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/spantisabalam/">Instagram</a></li>
+                <li><a href="https://www.youtube.com/channel/UCOLea80wiRZmRHVyUEdxwcA">Youtube</a></li>
+            </ul>
+            <p style="max-width: 200px; font-family: roboto;">Ayo Follow dan Ikuti informasi seputar kegiatan di SMPN 31
+                Bandar Lampung di
+                social media kami.</p>
+        </div>
+        <div class="title-3">
+            <ul>
+                <h5 class="mb-2">Tentang SMPN 31 Bandar Lampung</h5>
+                <p style="max-width: 340px; font-family: roboto;">SMP Negeri 31 Bandar Lampung merupakan salah satu
+                    Lembaga
+                    Pendidikan Pertama di Kota Bandar Lampung yang beroperasi pada tanggal 22 Februari 2005
+                    dengan luas tanah 11.000 m2 dan luas bangunan 1.535 m2.
+                </p>
+            </ul>
         </div>
         <div class="title-2">
             Kotak Saran
-            <form id="form-submit" action="" method="POST">
+            <form id="form-submit" action="" method="POST" class="mt-2">
                 <div class="form-group">
                     {{-- <label for="formGroupExampleInput">Nama</label> --}}
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nama">
@@ -63,6 +80,9 @@
                     <button type="submit" form="form-submit" class="btn btn-submit">Kirim</button>
                 </div>
             </form>
+        </div>
+        <div>
+
         </div>
     </footer>
 </body>
