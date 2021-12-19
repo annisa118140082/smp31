@@ -5,9 +5,12 @@
 @endsection
 
 @section('content')
+    <div style="padding: 50px 0">
+
+    </div>
     <div class="container-fluid bg-white pb-5">
         <div class="isi">
-            <h1 class="mb-4 font-weight-bold">Logo SMPN 31 Bandar Lampung</h1>
+            <h2 class="mb-4 font-weight-bold">Logo SMPN 31 Bandar Lampung</h2>
             <div class="d-flex flex-row">
                 <img src="{{ secure_asset('img/logosekolah.jpg') }}" class="img-fluid logo-sekolah" alt="logo SMPN 31 BDL">
                 <p>SMP Negeri 31 Bandar Lampung akhirnya resmi memiliki logo sekolah, ini setelah disahkan dalam rapat warga

@@ -5,9 +5,12 @@
 @endsection
 
 @section('content')
+    <div style="padding: 50px 0">
+
+    </div>
     <div class="container-fluid bg-white pb-5">
         <div class="isi">
-            <h1 class="mb-4 font-weight-bold">Mars SMP Negeri 31 Bandar Lampung</h1>
+            <h2 class="mb-4 font-weight-bold">Mars SMP Negeri 31 Bandar Lampung</h2>
             <p>
                 SMP Negeri tiga puluh satu Bandar Lampung<br>
                 Tempat kami menuntut ilmu, rajin dan giat selalu<br>

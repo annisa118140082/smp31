@@ -5,9 +5,12 @@
 @endsection
 
 @section('content')
+    <div style="padding: 50px 0">
+
+    </div>
     <div class="container-fluid bg-white pb-5">
         <div class="isi">
-            <h1 class="mb-4 font-weight-bold">Profil Sekolah</h1>
+            <h2 class="mb-4 font-weight-bold">Profil Sekolah</h2>
             <table>
                 <tr>
                     <td><b>Nama Sekolah</b></td>
@@ -71,11 +74,11 @@
                 </tr>
                 <tr>
                     <td><b> a. Luas Tanah / Status</b></td>
-                    <td>11.000 m2 / Sertifikat Hak Milik</td>
+                    <td>11.000 m<sup>2</sup> / Sertifikat Hak Milik</td>
                 </tr>
                 <tr>
                     <td><b> b. Luas Bangunan</b></td>
-                    <td>1.535 m2</td>
+                    <td>1.535 m<sup>2</sup></td>
                 </tr>
                 <tr>
                     <td><b>No. Rekening Sekolah</b></td>

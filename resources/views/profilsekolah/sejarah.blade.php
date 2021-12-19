@@ -5,9 +5,12 @@
 @endsection
 
 @section('content')
+    <div style="padding: 50px 0">
+
+    </div>
     <div class="container-fluid bg-white pb-5">
         <div class="isi">
-            <h1 class="mb-4 font-weight-bold">Sejarah</h1>
+            <h2 class="mb-4 font-weight-bold">Sejarah</h2>
             <p>Berdasarkan SK Walikota Bandar Lampung <b>Nomor : 22/08/HK/2005</b> Tentang SMP Negeri 31
                 Bandar Lampung yang beralamat di Kelurahan Campang Raya Kecamatan Tanjung Karang Timur.<br>
                 Pada saat adanya SK Walikota itu diterima oleh Drs. Hi. FAUZAN ANWAR, gedung sekolah tersebut belum ada,

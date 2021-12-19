@@ -5,6 +5,9 @@
 @endsection
 
 @section('content')
+    <div style="padding: 50px 0">
+
+    </div>
     <div class="container-fluid bg-white pb-5">
         <div class="isi">
             <h3 class="font-weight-bold">Visi Sekolah</h3>
