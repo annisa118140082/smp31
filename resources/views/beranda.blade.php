@@ -21,63 +21,53 @@
                 <div class=" title">
                     Ekstrakulikuler
                 </div>
-                {{-- <div class="bar"></div> --}}
-                <div class="card-deck">
+                <div class="card-deck row justify-content-center">
                     <div class="card col-lg-4 col-md-6 d-flex align-items-stretch" style="background-color: #D3A537">
-                        {{-- <img class="card-img-top" src="..." alt="Card image cap"> --}}
                         <div class="card-body">
                             <h5 class="card-title">OSIS</h5>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6 d-flex align-items-stretch"
                         style="background-color: rgb(71, 160, 86)">
-                        {{-- <img class="card-img-top" src="..." alt="Card image cap"> --}}
                         <div class="card-body">
                             <h5 class="card-title">PRAMUKA</h5>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6 d-flex align-items-stretch" style="background-color: #c5a0ce">
-                        {{-- <img class="card-img-top" src="..." alt="Card image cap"> --}}
                         <div class="card-body">
                             <h5 class="card-title">PASKIBRA</h5>
                         </div>
                     </div>
                 </div>
-                <div class="card-deck">
+                <div class="card-deck row justify-content-center">
                     <div class="card col-lg-4 col-md-6 d-flex align-items-stretch" style="background-color: #178FD6">
-                        {{-- <img class="card-img-top" src="..." alt="Card image cap"> --}}
                         <div class="card-body">
                             <h5 class="card-title">SENI TARI</h5>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6 d-flex align-items-stretch" style="background-color: #E0457F">
-                        {{-- <img class="card-img-top" src="..." alt="Card image cap"> --}}
                         <div class="card-body">
                             <h5 class="card-title">TAEKWONDO</h5>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6 d-flex align-items-stretch" style="background-color: #91c5e7">
-                        {{-- <img class="card-img-top" src="..." alt="Card image cap"> --}}
                         <div class="card-body">
                             <h5 class="card-title">OLAHRAGA</h5>
                         </div>
                     </div>
                 </div>
-                <div class="card-deck">
+                <div class="card-deck row justify-content-center">
                     <div class="card col-lg-4 col-md-6 d-flex align-items-stretch" style="background-color: #E3919D">
-                        {{-- <img class="card-img-top" src="..." alt="Card image cap"> --}}
                         <div class="card-body">
                             <h5 class="card-title">PMR</h5>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6 d-flex align-items-stretch" style="background-color: #B6DF82">
-                        {{-- <img class="card-img-top" src="..." alt="Card image cap"> --}}
                         <div class="card-body">
                             <h5 class="card-title">ROHIS</h5>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6 d-flex align-items-stretch" style="background-color: #F38062">
-                        {{-- <img class="card-img-top" src="..." alt="Card image cap"> --}}
                         <div class="card-body">
                             <h5 class="card-title">PKS</h5>
                             <h5 class="card-title">(Patroli Keamanan Sekolah)</h5>
@@ -94,8 +84,8 @@
                     </div>
 
                     <div class="row">
-                        <div class="card-deck">
-                            <div class="card col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="card-deck row justify-content-center">
+                            <div class="card col-lg-3 col-md-6">
                                 <img src="{{ secure_asset('img/dataSDM-kepsek.jpeg') }}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Drs. Mahmud Muin</h5>
@@ -104,7 +94,7 @@
                                 </div>
                             </div>
 
-                            <div class="card col-lg-3 col-md-6 d-flex align-items-stretch">
+                            <div class="card col-lg-3 col-md-6">
                                 <img src="{{ secure_asset('img/dataSDM-wakasek-humas.jpg') }}" class="card-img-top"
                                     alt="">
                                 <div class="card-body">
@@ -115,7 +105,7 @@
                                 </div>
                             </div>
 
-                            <div class="card col-lg-3 col-md-6 d-flex align-items-stretch">
+                            <div class="card col-lg-3 col-md-6">
                                 <img src="{{ secure_asset('img/dataSDM-wakasek-sapras.jpg') }}" class="card-img-top"
                                     alt="">
                                 <div class="card-body">
@@ -127,7 +117,7 @@
                                 </div>
                             </div>
 
-                            <div class="card col-lg-3 col-md-6 d-flex align-items-stretch">
+                            <div class="card col-lg-3 col-md-6">
                                 <img src="{{ secure_asset('img/dataSDM-wakasek-kurikulum.jpg') }}" class="card-img-top"
                                     alt="">
                                 <div class="card-body">

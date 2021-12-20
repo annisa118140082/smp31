@@ -24,13 +24,10 @@
 </head>
 
 <body>
-    {{-- <div class="wrap d-flex justify-content-center flex-column"> --}}
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <script src="{{ secure_secure_asset('js/main.js') }}"></script>
+    <script src="{{ secure_asset('js/main.js') }}"></script>
 
     @include('master.navbar')
 
@@ -45,7 +42,7 @@
                         <h5>Social Media Kami</h5>
 
                         <div class="social links text-md-left pt-3 pt-md-0 my-2">
-                            <li><a href="https://www.facebook.com/Smpn31BandarLampung/">Facebook</a></li>
+                            <li><a href="https://www.facebook.com/spantisa.balam.9">Facebook</a></li>
                             <li><a href="https://www.instagram.com/spantisabalam/">Instagram</a></li>
                             <li><a href="https://www.youtube.com/channel/UCOLea80wiRZmRHVyUEdxwcA">Youtube</a></li>
                         </div>
@@ -66,37 +63,16 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 footer-newsletter title-3">
-                        <div>
-                            <h5>Kotak Saran</h5>
-                            <form id="form-submit" action="" method="POST" class="mt-2">
-                                <div class="form-group">
-                                    <!-- <label for="formGroupExampleInput">Nama</label> -->
-                                    <input type="text" class="form-control" id="formGroupExampleInput"
-                                        placeholder="Nama">
-                                </div>
-                                <div class="form-group">
-                                    <!-- <label for="formGroupExampleInput2">Email</label> -->
-                                    <input type="text" class="form-control" id="formGroupExampleInput2"
-                                        placeholder="Email">
-                                </div>
-                                <div class="form-group">
-                                    <!-- <label for="formGroupExampleInput2">No Telepon</label> -->
-                                    <input type="text" class="form-control" id="formGroupExampleInput2"
-                                        placeholder="No Telepon">
-                                </div>
-                                <div class="form-group">
-                                    <!-- <label for="exampleFormControlTextarea1">Pesan</label> -->
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                        placeholder="Tulis Pesan"></textarea>
-                                </div>
-                                <div>
-                                    <button style="background-color: white" type="submit" form="form-submit"
-                                        class="btn btn-submit">Kirim</button>
-                                </div>
-                            </form>
-                        </div>
-
+                    <div class="col-lg-4 col-md-6 footer-links title-3">
+                        <h5>Profil SMPN 31 Bandar Lampung</h5>
+                        <ul>
+                            <i class="bx bx-chevron-right"></i> <a href="/">Beranda</a><br>
+                            <i class="bx bx-chevron-right"></i> <a href="/profil">Profil Sekolah</a><br>
+                            <i class="bx bx-chevron-right"></i> <a href="/sejarah">Sejarah</a><br>
+                            <i class="bx bx-chevron-right"></i> <a href="/visimisi">Visi & Misi</a><br>
+                            <i class="bx bx-chevron-right"></i> <a href="/logo">Logo Sekolah</a><br>
+                            <i class="bx bx-chevron-right"></i> <a href="/mars">Mars Sekolah</a>
+                        </ul>
                     </div>
 
                 </div>
