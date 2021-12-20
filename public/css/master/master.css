@@ -115,10 +115,6 @@ ul {
     font-size: 0.9rem;
 }
 
-li {
-    margin-right: 2em;
-}
-
 .big-text {
     font-family: "Poppins", sans-serif;
     font-size: 3rem;
@@ -154,10 +150,9 @@ li {
     padding-right: 9em;
 }
 
-.bar {
-    background-color: #034488;
-    width: 100px;
-    height: 7px;
+.card {
+    width: 300px;
+    margin-right: 10px;
 }
 
 .title-2 {
@@ -283,6 +278,7 @@ article {
     font-size: 14px;
     white-space: nowrap;
     transition: 0.3s;
+    text-decoration: none;
 }
 .navbar a i,
 .navbar a:focus i {
@@ -317,7 +313,7 @@ article {
     padding: 10px 20px;
     font-size: 14px;
     text-transform: none;
-    color: #00a05d;
+    color: #000000;
 }
 .navbar .dropdown ul a i {
     font-size: 12px;

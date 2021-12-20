@@ -1,7 +1,7 @@
 @extends('master.index')
 
 @section('css')
-    <link rel="stylesheet" href="{{ secure_asset('css/profilsekolah/isi-profil.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/profilsekolah/isi-profil.css') }}">
 @endsection
 
 @section('content')
