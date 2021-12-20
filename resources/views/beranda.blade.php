@@ -1,7 +1,7 @@
 @extends('master.index')
 
 @section('css')
-    <link href="{{ secure_asset('css/master/master.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/master/master.css') }}" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -96,7 +96,7 @@
                     <div class="row">
                         <div class="card-deck">
                             <div class="card col-lg-3 col-md-6 d-flex align-items-stretch">
-                                <img src="{{ secure_asset('img/dataSDM-kepsek.jpeg') }}" class="card-img-top" alt="">
+                                <img src="{{ asset('img/dataSDM-kepsek.jpeg') }}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Drs. Mahmud Muin</h5>
                                     <h6 class="card-title-nip">NIP 19621107 198803 1 006</h6>
@@ -105,8 +105,7 @@
                             </div>
 
                             <div class="card col-lg-3 col-md-6 d-flex align-items-stretch">
-                                <img src="{{ secure_asset('img/dataSDM-wakasek-humas.jpg') }}" class="card-img-top"
-                                    alt="">
+                                <img src="{{ asset('img/dataSDM-wakasek-humas.jpg') }}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Made Suyasmini, S.Pd</h5>
                                     <p class="card-text mt-5">Wakil Kepala Sekolah bidang Hubungan Masyarakat dan
@@ -116,8 +115,7 @@
                             </div>
 
                             <div class="card col-lg-3 col-md-6 d-flex align-items-stretch">
-                                <img src="{{ secure_asset('img/dataSDM-wakasek-sapras.jpg') }}" class="card-img-top"
-                                    alt="">
+                                <img src="{{ asset('img/dataSDM-wakasek-sapras.jpg') }}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Susmiyatin, S.Ag., M.Pd.I</h5>
                                     <p class="card-text mt-5">Wakil Kepala Sekolah bidang Sarana dan Prasarana SMPN
@@ -128,8 +126,7 @@
                             </div>
 
                             <div class="card col-lg-3 col-md-6 d-flex align-items-stretch">
-                                <img src="{{ secure_asset('img/dataSDM-wakasek-kurikulum.jpg') }}" class="card-img-top"
-                                    alt="">
+                                <img src="{{ asset('img/dataSDM-wakasek-kurikulum.jpg') }}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Rini Pangastuti, S.Pd, MM</h5>
                                     <p class="card-text mt-5">Wakil Kepala Sekolah bidang Kurikulum SMPN 31 Bandar
